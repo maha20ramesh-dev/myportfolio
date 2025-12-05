@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mahalakshmi Ramesh - Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Varela+Round&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="pill-nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="#hi">home</a></li>
+      <li><a href="#intro">about</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#hobbies">hobbies</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO-->
+  <main>
+    <section id="hi" class="hero" aria-labelledby="hero-heading">
+      <div class="hero-inner container">
+        <div class="hero-left">
+          <img src="photo.jpg" alt="Mahalakshmi portrait" class="hero-pic" loading="eager">
+        </div>
+
+        <div class="hero-text" role="region" aria-labelledby="hero-heading">
+          <h1 id="hero-heading">Heyy!</h1>
+          <p class="name">I'm Mahalakshmi.</p>
+          <p class="tagline">~I take my projects seriously, and my coffee even more seriously.</p>
+
+          <div class="hero-ctas">
+            <a class="resume-btn" href="#projects">View projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT-->
+    <section id="intro" class="intro" aria-labelledby="intro-heading">
+      <div class="container">
+        <h2 id="intro-heading">Where it all started.</h2>
+        <p class="intropara">
+          I was brought up in Goa, where the food is amazing and sunsets are frame-worthy.I did my secondary schooling
+          at St. Clara's and
+          completed my pre-university years at Shri Shantadurga. Now I'm an engineering student at Jai Shriram's
+          pursuing Computer Science — which basically means I spend a lot of time debugging code and exploring codes,
+          and I love
+          every moment of it.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECT-->
+    <section id="projects" class="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading">Projects</h2>
+        <p class="subtle">Some cool stuffs that I built.</p>
+
+        <div class="project-grid single-project">
+          <article class="project-card">
+            <div class="project-card-inner">
+              <div class="project-text">
+                <h3>Y-WAIT</h3>
+                <p class="proj-desc">
+                  Y-WAIT is a virtual queueing platform designed to reduce waiting-room congestion and improve user
+                  experience. Users can join queues online, track real-time progress, and get notified when their turn
+                  approaches. I worked on UI flows and frontend implementation.
+                </p>
+                <div class="proj-meta">HTML-CSS • JAVASCRIPT • FIREBASE</div>
+                <div class="proj-actions">
+                  <a class="card-cta" href="https://y-wait-49578.web.app/" target="_blank"
+                    rel="noopener noreferrer">View live →</a>
+                </div>
+              </div>
+
+              <div class="project-image-wrap">
+                <img src="ywait.png" alt="Y-WAIT screenshot" class="proj-thumb" loading="lazy">
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOBBIES-->
+    <section id="hobbies" class="hobbies" aria-labelledby="hobbies-heading">
+      <div class="container">
+        <h2 id="hobbies-heading">Hobbies</h2>
+        <p class="subtle">Things I do when I'm not staring at a screen</p>
+
+        <div class="hobby-grid">
+
+
+          <article class="hobby-card music">
+            <h3>🎧 Music</h3>
+            <p class="hobby-tagline">take a look at my all time favs</p>
+
+            <div class="spotify-embed">
+              <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/2R4RWLhfOlInuo7AWvvprK?utm_source=generator" width="100%"
+                height="120" frameborder="0" allow="autoplay; clipboard-write; encrypted-media;">
+              </iframe>
+            </div>
+
+            <a class="open-spotify"
+              href="https://open.spotify.com/playlist/2R4RWLhfOlInuo7AWvvprK?si=KdzGCsOqRbG8Gduqk8h4ig"
+              target="_blank">Open in Spotify →</a>
+          </article>
+
+
+          <article class="hobby-card">
+            <h3>🌱 Gardening</h3>
+            <p class="hobby-tagline">green friends</p>
+            <p class="hobby-desc">I love growing small plants and pretty flowers. You'll find them everywhere at my house.
+            </p>
+          </article>
+
+
+          <article class="hobby-card">
+            <h3>🧵 Macramé Art</h3>
+            <p class="hobby-tagline">knots & creativity</p>
+            <p class="hobby-desc">I make small wall hangings, plant holders, keychains & cute handmade pieces.</p>
+          </article>
+
+
+          <article class="hobby-card">
+            <h3>📚 Books</h3>
+            <p class="hobby-tagline">reads for fun</p>
+            <p class="hobby-desc">Current pick: The Silent Patient by Alex Michaelides : absolute thriller, keeps you
+              guessing till the climax.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading">Let's get in touch</h2>
+
+        <div class="marquee-wrap" aria-hidden="false">
+          <div class="marquee">
+            <span>•come say hi•</span>
+          </div>
+        </div>
+
+        <p class="contact-note">Email: <a href="mailto:maha20ramesh@gmail.com">maha20ramesh@gmail.com</a></p>
+        <a class="resume-btn" href="Resume-Mahalakshmi Ramesh.pdf" download>Download Resume</a>
+
+        <div class="social-buttons">
+          <a href="https://www.linkedin.com/in/mahalakshmi-ramesh-385921351" class="social-btn linkedin" target="_blank"
+            rel="noopener noreferrer">💼 LinkedIn</a>
+          <a href="https://wa.link/mmjf9o" class="social-btn whatsapp" target="_blank" rel="noopener noreferrer">💬
+            WhatsApp</a>
+          <a href="https://www.instagram.com/maharamesh720?igsh=MTJhdWowb2F3djR2NQ==" class="social-btn insta"
+            target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- javascript section -->
+  <script>
+    const navLinks = document.querySelectorAll('.pill-nav a');
+    const sections = document.querySelectorAll('section[id]');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const id = entry.target.id;
+        const link = document.querySelector('.pill-nav a[href="#' + id + '"]');
+        if (entry.isIntersecting) {
+          navLinks.forEach(a => a.classList.remove('active'));
+          if (link) link.classList.add('active');
+        }
+      });
+    }, { threshold: 0.55 });
+
+    sections.forEach(s => observer.observe(s));
+  </script>
+</body>
+
+</html>
